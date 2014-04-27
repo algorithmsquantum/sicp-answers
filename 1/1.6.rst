@@ -1,0 +1,5 @@
+1.6
+===
+
+.. literalinclude:: ../code/1.6.scm
+   :language: scheme
