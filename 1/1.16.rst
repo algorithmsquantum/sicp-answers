@@ -1,0 +1,28 @@
+1.16
+====
+
+.. code-block:: scheme
+
+    ; 不变量 b, 状态量 a, 计数器 n
+
+    ; 状态变化, n 是偶数时:
+
+    ; ab^(n) = a(b^2)^(n/2)
+
+    ; a -> a, b -> b^2, n -> (n/2)
+
+    ; n 是奇数时:
+
+    ; ab^(n) = ab(b^(n-1))
+
+    ; a -> ab, b -> b, n -> (n-1)
+
+    (define (expt b n)
+     (define (expt-iter a b n)
+      (cond ((= n 0) a)
+       ((even? n) (expt-iter a (* b b) (/ n 2)))
+       (else (expt-iter (* a b) b (- n 1)))))
+     (expt-iter 1 b n))
+
+    (display (expt 2 1000))
+
