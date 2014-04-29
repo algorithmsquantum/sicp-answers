@@ -22,6 +22,12 @@ SICP Answers
 
     $ ./1.2
 
+.. note::
+
+    本文档所有代码依照 *Scheme* R\ :sup:`5` RS 版标准实现写成, 比如要求实现的一些标准过程 sqrt, even? 等, 不再自己实现, 而是直接使用.
+
+    凡此种种, 不再赘述.
+
 Contents:
 
 .. toctree::
