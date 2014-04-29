@@ -1,0 +1,7 @@
+1.12
+====
+
+此题其实求解的是帕斯卡三角形给定位置的数值.
+
+.. literalinclude:: ../code/1.12.scm
+   :language: scheme
