@@ -1,7 +1,5 @@
-(define (halve a) (/ a 2))
-(define (double a) (+ a a))
+(load "common.scm")
 
-; 状态量 b, b = 0, result = 0
 ; 状态变化
 ; b 是偶数时, ab = (2a)(b/2), a -> 2a, b -> b/2
 ; b 是奇数时, ab = a(b-1) + a, a -> a, b -> (b-1)
@@ -28,5 +26,5 @@
 
 (display (multiplied 1 3))
 (newline)
-(display (multiplied 2 9))
+(display (multiplied 2 100000))
 
