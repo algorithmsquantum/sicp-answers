@@ -6,15 +6,15 @@
 SICP Answers
 ========================================
 
-这是 *SICP* （中文译作：计算机程序的构造与解释）解题集， *Scheme* 解释器为 `Gambit-C v4.7.2 <http://gambitscheme.org/>`_.
+这是 *SICP* （中文译作：计算机程序的构造与解释）解题集， *Scheme* 解释器为 `Gambit-C <http://gambitscheme.org/>`_ 或者 `Guile <http://www.gnu.org/software/guile/>`_.
 
-你可以使用解释执行的方式运行 **code** 目录下的代码：
+如果你使用 *Gambit-C* ,你可以使用解释执行的方式运行 **code** 目录下的代码：
 
 .. code-block:: sh
 
     $ gsi 1.2.scm
 
-当然你也可以编译执行：
+当然你也可以编译执行:
 
 .. code-block:: sh
 
